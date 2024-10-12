@@ -11,7 +11,7 @@ You can click the Preview link to take a look at your changes.
 ### ABOUT ME:
 Ha I am a distractive creator who can turn anything that I dream of into reality and I love to create complex projects based on machine learning and cryptography and highly aesthetic projects based on frontend framework 
 
-  *"If you want to create something then do not hesitate to destroy"*
+  *"If you want to create something new then do not hesitate to destroy existing one"*
 
 
 ### MACHINE LEARNING LIBRARY I 🖤:
