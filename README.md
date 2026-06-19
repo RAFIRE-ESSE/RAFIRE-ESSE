@@ -218,18 +218,14 @@ A **cloud-based interactive 3D design workspace** for clothing — where fashion
 
 ---
 
-### 🦖 Chrome Dino Game Break!
+### ⚔️ Star Wars — Battle of Yavin
 
 <div align="center">
-  <p><b>Taking a break from training ML models? Click the T-Rex to play the classic Dino Game!</b></p>
-  
-  <a href="https://chromedino.com/" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Chromium_T-Rex-error-offline.svg" width="550" alt="Play Chrome Dino Game" />
-  </a>
 
-  <br />
-  <br />
-  <p><i>Press Space to Jump. Watch out for the Pterodactyls! 🌵</i></p>
+![Star Wars Battle of Yavin](https://raw.githubusercontent.com/RAFIRE-ESSE/RAFIRE-ESSE/main/star_wars.svg)
+
+<sub><i>Rebels vs Empire · X-Wings · TIE Fighters · Death Star Superlaser · Yavin IV</i></sub>
+
 </div>
 
 ---
