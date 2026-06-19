@@ -55,7 +55,7 @@ class Vigneshwaran:
 
 ---
 
-### 🏢 Featured Work — [House of Esse](https://houseofesse.com)
+### ◈ Featured Work — [House of Esse](https://houseofesse.com)
 
 <div align="center">
 
@@ -69,11 +69,11 @@ A **cloud-based interactive 3D design workspace** for clothing — where fashion
 
 **What I built, alone, from scratch:**
 
-- 🎨 Interactive 3D garment design canvas
-- 🧵 Real-time texture mapping & coloring engine
-- 🎬 Garment-to-video & image rendering pipeline
-- ☁️ Full cloud infrastructure from zero
-- 🔄 End-to-end: Frontend → Backend → 3D Pipeline
+- ⇄ Interactive 3D garment design canvas
+- ⇄ Real-time texture mapping & coloring engine
+- ⇄ Garment-to-video & image rendering pipeline
+- ⇄ Full cloud infrastructure from zero
+- ⇄ End-to-end: Frontend → Backend → 3D Pipeline
 
 </td>
 <td width="40%" align="center">
@@ -95,7 +95,7 @@ A **cloud-based interactive 3D design workspace** for clothing — where fashion
 
 ---
 
-### 🧠 Machine Learning Arsenal
+### ⎔ Machine Learning Arsenal
 
 <div align="center">
 
@@ -140,7 +140,7 @@ A **cloud-based interactive 3D design workspace** for clothing — where fashion
 
 ---
 
-### 🌐 Web & 3D Stack
+### ⬡ Web & 3D Stack
 
 <div align="center">
 
@@ -181,7 +181,7 @@ A **cloud-based interactive 3D design workspace** for clothing — where fashion
 
 ---
 
-### 🐧 OS & Environment
+### ⌘ OS & Environment
 
 <div align="center">
 
@@ -218,7 +218,7 @@ A **cloud-based interactive 3D design workspace** for clothing — where fashion
 
 ---
 
-### ⚔️ Star Wars — Battle of Yavin
+### ✧ Star Wars — Battle of Yavin
 
 <div align="center">
 
@@ -230,7 +230,7 @@ A **cloud-based interactive 3D design workspace** for clothing — where fashion
 
 ---
 
-### 🐍 Contribution Activity
+### ⑆ Contribution Activity
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/RAFIRE-ESSE/RAFIRE-ESSE/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" />
