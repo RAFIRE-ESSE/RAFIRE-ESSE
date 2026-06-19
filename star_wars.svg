@@ -1,0 +1,358 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360">
+<defs>
+  <radialGradient id="dsGrad" cx="40%" cy="35%">
+    <stop offset="0%" stop-color="#909090"/>
+    <stop offset="60%" stop-color="#484848"/>
+    <stop offset="100%" stop-color="#1a1a1a"/>
+  </radialGradient>
+  <radialGradient id="yavinGrad" cx="35%" cy="30%">
+    <stop offset="0%" stop-color="#c94a2b"/>
+    <stop offset="70%" stop-color="#8b2200"/>
+    <stop offset="100%" stop-color="#3d0d00"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="greenGlow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="clip"><rect width="900" height="360"/></clipPath>
+  <style>
+    @keyframes tw1{0%,100%{opacity:1}50%{opacity:.2}}
+    @keyframes tw2{0%,100%{opacity:.8}30%{opacity:.1}70%{opacity:1}}
+    @keyframes xw1{
+      0%{transform:translate(-200px,0)}
+      25%{transform:translate(100px,-20px)}
+      50%{transform:translate(280px,10px)}
+      75%{transform:translate(420px,-8px)}
+      100%{transform:translate(-200px,0)}
+    }
+    @keyframes xw2{
+      0%{transform:translate(-200px,0)}
+      20%{transform:translate(60px,15px)}
+      55%{transform:translate(260px,-12px)}
+      80%{transform:translate(400px,8px)}
+      100%{transform:translate(-200px,0)}
+    }
+    @keyframes tie1{
+      0%{transform:translate(0,0)}
+      30%{transform:translate(-120px,25px)}
+      60%{transform:translate(-230px,-15px)}
+      100%{transform:translate(0,0)}
+    }
+    @keyframes tie2{
+      0%{transform:translate(0,0)}
+      25%{transform:translate(-90px,-20px)}
+      55%{transform:translate(-190px,18px)}
+      100%{transform:translate(0,0)}
+    }
+    @keyframes tie3{
+      0%{transform:translate(0,0)}
+      35%{transform:translate(-150px,30px)}
+      65%{transform:translate(-260px,-10px)}
+      100%{transform:translate(0,0)}
+    }
+    @keyframes laser1{0%{opacity:1;transform:translateX(0)}100%{opacity:0;transform:translateX(320px)}}
+    @keyframes laser2{0%{opacity:0}10%{opacity:1;transform:translateX(0)}100%{opacity:0;transform:translateX(280px)}}
+    @keyframes beam{
+      0%,65%{opacity:0;transform:scaleX(0);transform-origin:right center}
+      70%{opacity:1;transform:scaleX(1);transform-origin:right center}
+      85%{opacity:.7}
+      95%,100%{opacity:0}
+    }
+    @keyframes dish{
+      0%,65%{opacity:.3}70%,85%{opacity:1;fill:#00ff88}95%,100%{opacity:.3;fill:#444}
+    }
+    @keyframes expl{
+      0%,68%{opacity:0;transform:scale(0)}
+      72%{opacity:1;transform:scale(1)}
+      82%{opacity:.8;transform:scale(2.5)}
+      92%{opacity:.3;transform:scale(4)}
+      96%,100%{opacity:0;transform:scale(5)}
+    }
+    @keyframes eng{0%,100%{opacity:.9;r:4}50%{opacity:1;r:5.5}}
+    @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-450px)}}
+  </style>
+</defs>
+<g clip-path="url(#clip)">
+
+<!-- Space -->
+<rect width="900" height="360" fill="#000814"/>
+
+<!-- Scrolling stars -->
+<g style="animation:scroll 80s linear infinite">
+  <circle cx="1309" cy="57" r="0.5" fill="white" style="animation:tw1 2.8s ease-in-out infinite 0.7s"/>
+  <circle cx="1385" cy="279" r="0.6" fill="white" style="animation:tw1 3.3s ease-in-out infinite 0.1s"/>
+  <circle cx="476" cy="258" r="1.1" fill="white" style="animation:tw2 3.7s ease-in-out infinite 2.1s"/>
+  <circle cx="451" cy="229" r="1.1" fill="white" style="animation:tw1 4.4s ease-in-out infinite 0.0s"/>
+  <circle cx="1429" cy="216" r="0.8" fill="white" style="animation:tw2 2.5s ease-in-out infinite 2.9s"/>
+  <circle cx="209" cy="47" r="0.9" fill="white" style="animation:tw2 3.1s ease-in-out infinite 1.0s"/>
+  <circle cx="1652" cy="22" r="1.2" fill="white" style="animation:tw2 3.6s ease-in-out infinite 2.9s"/>
+  <circle cx="161" cy="282" r="0.8" fill="white" style="animation:tw2 3.9s ease-in-out infinite 2.7s"/>
+  <circle cx="1182" cy="98" r="1.2" fill="white" style="animation:tw2 2.1s ease-in-out infinite 0.7s"/>
+  <circle cx="163" cy="119" r="1.4" fill="white" style="animation:tw2 3.1s ease-in-out infinite 1.4s"/>
+  <circle cx="333" cy="189" r="0.9" fill="white" style="animation:tw1 4.0s ease-in-out infinite 2.1s"/>
+  <circle cx="1247" cy="325" r="0.7" fill="white" style="animation:tw2 4.2s ease-in-out infinite 0.5s"/>
+  <circle cx="552" cy="327" r="1.2" fill="white" style="animation:tw1 2.7s ease-in-out infinite 1.0s"/>
+  <circle cx="469" cy="16" r="1.3" fill="white" style="animation:tw2 3.2s ease-in-out infinite 0.2s"/>
+  <circle cx="435" cy="335" r="1.0" fill="white" style="animation:tw1 4.7s ease-in-out infinite 1.9s"/>
+  <circle cx="542" cy="71" r="0.7" fill="white" style="animation:tw2 3.7s ease-in-out infinite 0.8s"/>
+  <circle cx="1195" cy="204" r="0.9" fill="white" style="animation:tw2 5.0s ease-in-out infinite 0.4s"/>
+  <circle cx="186" cy="24" r="1.4" fill="white" style="animation:tw2 2.5s ease-in-out infinite 0.5s"/>
+  <circle cx="1221" cy="32" r="0.9" fill="white" style="animation:tw2 3.8s ease-in-out infinite 1.4s"/>
+  <circle cx="1133" cy="5" r="1.2" fill="white" style="animation:tw2 2.3s ease-in-out infinite 2.7s"/>
+  <circle cx="1574" cy="328" r="0.8" fill="white" style="animation:tw1 2.9s ease-in-out infinite 0.5s"/>
+  <circle cx="1478" cy="134" r="1.5" fill="white" style="animation:tw1 4.3s ease-in-out infinite 1.5s"/>
+  <circle cx="1782" cy="320" r="0.8" fill="white" style="animation:tw1 3.9s ease-in-out infinite 1.8s"/>
+  <circle cx="765" cy="82" r="1.0" fill="white" style="animation:tw1 4.3s ease-in-out infinite 1.6s"/>
+  <circle cx="1226" cy="165" r="1.0" fill="white" style="animation:tw2 2.3s ease-in-out infinite 1.1s"/>
+  <circle cx="490" cy="29" r="0.7" fill="white" style="animation:tw2 3.7s ease-in-out infinite 0.2s"/>
+  <circle cx="1671" cy="35" r="1.5" fill="white" style="animation:tw2 3.6s ease-in-out infinite 0.4s"/>
+  <circle cx="1125" cy="84" r="0.8" fill="white" style="animation:tw1 4.6s ease-in-out infinite 1.3s"/>
+  <circle cx="1104" cy="353" r="0.7" fill="white" style="animation:tw2 2.9s ease-in-out infinite 3.0s"/>
+  <circle cx="897" cy="264" r="1.0" fill="white" style="animation:tw1 2.7s ease-in-out infinite 0.2s"/>
+  <circle cx="1204" cy="283" r="0.7" fill="white" style="animation:tw1 2.7s ease-in-out infinite 0.2s"/>
+  <circle cx="468" cy="34" r="1.4" fill="white" style="animation:tw1 4.6s ease-in-out infinite 0.2s"/>
+  <circle cx="570" cy="342" r="1.0" fill="white" style="animation:tw2 3.6s ease-in-out infinite 2.2s"/>
+  <circle cx="497" cy="242" r="1.3" fill="white" style="animation:tw2 2.6s ease-in-out infinite 0.3s"/>
+  <circle cx="725" cy="216" r="0.9" fill="white" style="animation:tw1 4.6s ease-in-out infinite 0.2s"/>
+  <circle cx="124" cy="206" r="1.2" fill="white" style="animation:tw1 4.4s ease-in-out infinite 0.3s"/>
+  <circle cx="389" cy="274" r="0.9" fill="white" style="animation:tw1 3.3s ease-in-out infinite 0.8s"/>
+  <circle cx="1790" cy="38" r="0.9" fill="white" style="animation:tw1 4.6s ease-in-out infinite 1.7s"/>
+  <circle cx="1335" cy="276" r="1.3" fill="white" style="animation:tw1 4.9s ease-in-out infinite 2.8s"/>
+  <circle cx="340" cy="208" r="1.0" fill="white" style="animation:tw1 2.6s ease-in-out infinite 1.2s"/>
+  <circle cx="337" cy="194" r="0.5" fill="white" style="animation:tw2 3.2s ease-in-out infinite 2.8s"/>
+  <circle cx="584" cy="216" r="1.2" fill="white" style="animation:tw2 4.2s ease-in-out infinite 2.4s"/>
+  <circle cx="317" cy="97" r="0.8" fill="white" style="animation:tw1 4.9s ease-in-out infinite 1.7s"/>
+  <circle cx="1531" cy="160" r="0.6" fill="white" style="animation:tw1 3.8s ease-in-out infinite 1.5s"/>
+  <circle cx="116" cy="260" r="0.6" fill="white" style="animation:tw1 2.6s ease-in-out infinite 1.8s"/>
+  <circle cx="826" cy="61" r="1.4" fill="white" style="animation:tw1 3.7s ease-in-out infinite 1.7s"/>
+  <circle cx="1268" cy="41" r="0.9" fill="white" style="animation:tw2 3.8s ease-in-out infinite 1.6s"/>
+  <circle cx="418" cy="342" r="1.2" fill="white" style="animation:tw2 2.7s ease-in-out infinite 1.2s"/>
+  <circle cx="936" cy="161" r="1.4" fill="white" style="animation:tw1 4.8s ease-in-out infinite 0.0s"/>
+  <circle cx="150" cy="275" r="0.7" fill="white" style="animation:tw1 2.8s ease-in-out infinite 2.8s"/>
+  <circle cx="1800" cy="125" r="0.9" fill="white" style="animation:tw2 2.5s ease-in-out infinite 2.5s"/>
+  <circle cx="1252" cy="334" r="1.0" fill="white" style="animation:tw1 4.0s ease-in-out infinite 1.7s"/>
+  <circle cx="1798" cy="68" r="0.8" fill="white" style="animation:tw1 4.7s ease-in-out infinite 2.2s"/>
+  <circle cx="557" cy="144" r="1.1" fill="white" style="animation:tw2 4.2s ease-in-out infinite 0.6s"/>
+  <circle cx="1035" cy="250" r="0.8" fill="white" style="animation:tw2 4.7s ease-in-out infinite 0.2s"/>
+  <circle cx="1698" cy="141" r="0.5" fill="white" style="animation:tw2 3.0s ease-in-out infinite 0.4s"/>
+  <circle cx="330" cy="226" r="1.1" fill="white" style="animation:tw1 3.3s ease-in-out infinite 0.0s"/>
+  <circle cx="1415" cy="76" r="1.0" fill="white" style="animation:tw1 4.5s ease-in-out infinite 1.7s"/>
+  <circle cx="880" cy="65" r="0.5" fill="white" style="animation:tw1 3.1s ease-in-out infinite 2.8s"/>
+  <circle cx="732" cy="107" r="1.2" fill="white" style="animation:tw2 4.0s ease-in-out infinite 1.1s"/>
+  <circle cx="1271" cy="79" r="1.4" fill="white" style="animation:tw1 2.7s ease-in-out infinite 0.5s"/>
+  <circle cx="844" cy="12" r="0.7" fill="white" style="animation:tw2 4.8s ease-in-out infinite 2.3s"/>
+  <circle cx="1642" cy="342" r="1.4" fill="white" style="animation:tw1 4.4s ease-in-out infinite 0.8s"/>
+  <circle cx="783" cy="19" r="1.4" fill="white" style="animation:tw2 2.7s ease-in-out infinite 2.4s"/>
+  <circle cx="716" cy="156" r="1.3" fill="white" style="animation:tw1 4.6s ease-in-out infinite 0.7s"/>
+  <circle cx="816" cy="168" r="0.8" fill="white" style="animation:tw2 2.2s ease-in-out infinite 2.3s"/>
+  <circle cx="1313" cy="260" r="0.9" fill="white" style="animation:tw1 4.9s ease-in-out infinite 1.6s"/>
+  <circle cx="236" cy="133" r="0.7" fill="white" style="animation:tw1 4.9s ease-in-out infinite 0.8s"/>
+  <circle cx="1221" cy="222" r="0.8" fill="white" style="animation:tw1 4.4s ease-in-out infinite 1.3s"/>
+  <circle cx="788" cy="295" r="0.7" fill="white" style="animation:tw1 2.1s ease-in-out infinite 1.3s"/>
+  <circle cx="745" cy="220" r="0.6" fill="white" style="animation:tw2 4.0s ease-in-out infinite 1.0s"/>
+  <circle cx="1358" cy="63" r="1.2" fill="white" style="animation:tw2 2.9s ease-in-out infinite 0.9s"/>
+  <circle cx="668" cy="206" r="1.2" fill="white" style="animation:tw2 3.7s ease-in-out infinite 0.6s"/>
+  <circle cx="1387" cy="89" r="1.1" fill="white" style="animation:tw1 2.9s ease-in-out infinite 1.6s"/>
+  <circle cx="622" cy="146" r="0.7" fill="white" style="animation:tw2 4.4s ease-in-out infinite 1.8s"/>
+  <circle cx="952" cy="226" r="0.9" fill="white" style="animation:tw1 2.6s ease-in-out infinite 1.4s"/>
+  <circle cx="1349" cy="43" r="0.8" fill="white" style="animation:tw1 4.0s ease-in-out infinite 1.9s"/>
+  <circle cx="1676" cy="120" r="1.2" fill="white" style="animation:tw1 2.7s ease-in-out infinite 0.6s"/>
+  <circle cx="94" cy="125" r="1.5" fill="white" style="animation:tw2 3.8s ease-in-out infinite 2.3s"/>
+  <circle cx="848" cy="322" r="1.1" fill="white" style="animation:tw2 4.2s ease-in-out infinite 1.2s"/>
+  <circle cx="499" cy="75" r="1.2" fill="white" style="animation:tw1 2.0s ease-in-out infinite 2.3s"/>
+  <circle cx="1594" cy="217" r="0.7" fill="white" style="animation:tw2 4.4s ease-in-out infinite 2.1s"/>
+  <circle cx="102" cy="285" r="0.7" fill="white" style="animation:tw2 4.5s ease-in-out infinite 1.4s"/>
+  <circle cx="1367" cy="271" r="1.5" fill="white" style="animation:tw2 3.8s ease-in-out infinite 2.9s"/>
+  <circle cx="1254" cy="258" r="0.9" fill="white" style="animation:tw1 4.7s ease-in-out infinite 1.3s"/>
+  <circle cx="1523" cy="243" r="1.0" fill="white" style="animation:tw2 4.3s ease-in-out infinite 2.5s"/>
+  <circle cx="1568" cy="266" r="1.0" fill="white" style="animation:tw2 2.7s ease-in-out infinite 1.3s"/>
+  <circle cx="480" cy="139" r="0.8" fill="white" style="animation:tw1 4.7s ease-in-out infinite 0.2s"/>
+  <circle cx="473" cy="196" r="1.2" fill="white" style="animation:tw2 4.1s ease-in-out infinite 0.2s"/>
+  <circle cx="677" cy="277" r="1.0" fill="white" style="animation:tw2 2.2s ease-in-out infinite 2.5s"/>
+</g>
+
+<!-- Yavin IV planet -->
+<circle cx="95" cy="85" r="72" fill="url(#yavinGrad)" opacity="0.55"/>
+<ellipse cx="88" cy="60" rx="62" ry="11" fill="none" stroke="#c94a2b" stroke-width="1.5" opacity="0.3"/>
+<ellipse cx="88" cy="80" rx="67" ry="9" fill="none" stroke="#a33b20" stroke-width="1" opacity="0.25"/>
+<ellipse cx="88" cy="100" rx="58" ry="8" fill="none" stroke="#c94a2b" stroke-width="1" opacity="0.2"/>
+
+<!-- DEATH STAR -->
+<circle cx="765" cy="180" r="132" fill="url(#dsGrad)" stroke="#555" stroke-width="1.2"/>
+<!-- Surface grid lines horizontal -->
+<line x1="635" y1="180" x2="895" y2="180" stroke="#333" stroke-width="2" opacity="0.7"/>
+<line x1="638" y1="158" x2="891" y2="158" stroke="#2a2a2a" stroke-width="1" opacity="0.4"/>
+<line x1="643" y1="136" x2="884" y2="136" stroke="#2a2a2a" stroke-width="1" opacity="0.35"/>
+<line x1="655" y1="114" x2="872" y2="114" stroke="#2a2a2a" stroke-width=".8" opacity="0.3"/>
+<line x1="638" y1="202" x2="891" y2="202" stroke="#2a2a2a" stroke-width="1" opacity="0.4"/>
+<line x1="643" y1="224" x2="884" y2="224" stroke="#2a2a2a" stroke-width="1" opacity="0.35"/>
+<line x1="655" y1="246" x2="872" y2="246" stroke="#2a2a2a" stroke-width=".8" opacity="0.3"/>
+<!-- Surface grid lines vertical -->
+<line x1="700" y1="50" x2="700" y2="310" stroke="#2a2a2a" stroke-width=".8" opacity="0.3"/>
+<line x1="733" y1="49" x2="733" y2="311" stroke="#2a2a2a" stroke-width=".8" opacity="0.3"/>
+<line x1="765" y1="48" x2="765" y2="312" stroke="#2a2a2a" stroke-width=".8" opacity="0.3"/>
+<line x1="797" y1="49" x2="797" y2="311" stroke="#2a2a2a" stroke-width=".8" opacity="0.3"/>
+<line x1="828" y1="52" x2="828" y2="308" stroke="#2a2a2a" stroke-width=".8" opacity="0.3"/>
+<!-- Equatorial trench -->
+<path d="M636,180 Q765,172 894,180" stroke="#111" stroke-width="5" fill="none"/>
+<path d="M636,180 Q765,188 894,180" stroke="#111" stroke-width="5" fill="none"/>
+<path d="M636,180 Q765,172 894,180" stroke="#2a2a2a" stroke-width="2" fill="none"/>
+<!-- Superlaser dish -->
+<circle cx="695" cy="128" r="32" fill="#3a3a3a" stroke="#666" stroke-width="1.5"/>
+<circle cx="695" cy="128" r="24" fill="#2a2a2a" stroke="#555" stroke-width="1"/>
+<circle cx="695" cy="128" r="16" fill="#1e1e1e" stroke="#555" stroke-width="1.5"/>
+<circle cx="695" cy="128" r="8"  fill="#0e0e0e" stroke="#777" stroke-width="1"/>
+<circle cx="695" cy="128" r="4"  fill="#444" style="animation:dish 9s ease-in-out infinite 2s"/>
+<circle cx="695" cy="128" r="30" fill="none" stroke="#444" stroke-width=".6" opacity="0.5"/>
+<circle cx="695" cy="128" r="22" fill="none" stroke="#444" stroke-width=".6" opacity="0.5"/>
+<!-- Dish support lines -->
+<line x1="669" y1="128" x2="720" y2="128" stroke="#555" stroke-width=".8" opacity="0.6"/>
+<line x1="695" y1="102" x2="695" y2="154" stroke="#555" stroke-width=".8" opacity="0.6"/>
+<line x1="676" y1="109" x2="714" y2="147" stroke="#555" stroke-width=".6" opacity="0.4"/>
+<line x1="714" y1="109" x2="676" y2="147" stroke="#555" stroke-width=".6" opacity="0.4"/>
+
+<!-- Death Star superlaser beam -->
+<g style="animation:beam 9s ease-in-out infinite 2s" filter="url(#greenGlow)">
+  <rect x="180" y="121" width="515" height="5"  rx="2" fill="#00ff55" opacity=".95"/>
+  <rect x="180" y="123" width="515" height="10" rx="3" fill="#00ff88" opacity=".4"/>
+  <rect x="180" y="124" width="515" height="6"  rx="2" fill="#aaffcc" opacity=".3"/>
+</g>
+<!-- Explosion at beam impact point -->
+<g style="animation:expl 9s ease-in-out infinite 2s" transform-origin="200 126">
+  <circle cx="200" cy="126" r="14" fill="#ff8800" opacity="0"/>
+  <circle cx="200" cy="126" r="8"  fill="#ffcc00" opacity="0"/>
+</g>
+
+<!-- X-WING 1 (row 1 ~ y=148) -->
+<g style="animation:xw1 13s ease-in-out infinite">
+  <!-- Body -->
+  <rect x="82" y="144" width="72" height="13" rx="3" fill="#c8c8c8"/>
+  <rect x="82" y="147" width="76" height="7" rx="2" fill="#d8d8d8"/>
+  <!-- Nose cone -->
+  <polygon points="154,148 170,152 154,156" fill="#e0e0e0"/>
+  <!-- Cockpit bubble -->
+  <ellipse cx="128" cy="145" rx="13" ry="7" fill="#6ab4ff" stroke="#aaa" stroke-width=".8" opacity=".92"/>
+  <ellipse cx="126" cy="143" rx="6" ry="3" fill="#a0d0ff" opacity=".5"/>
+  <!-- Red Alliance stripe -->
+  <rect x="87" y="148" width="62" height="2.5" fill="#cc0000" opacity=".9"/>
+  <!-- Top-outer wing -->
+  <polygon points="103,144 96,102 116,102 120,144" fill="#b8b8b8" stroke="#888" stroke-width=".6"/>
+  <!-- Top-inner wing -->
+  <polygon points="122,144 117,118 134,118 136,144" fill="#b0b0b0" stroke="#888" stroke-width=".6"/>
+  <!-- Bot-outer wing -->
+  <polygon points="103,157 96,199 116,199 120,157" fill="#b8b8b8" stroke="#888" stroke-width=".6"/>
+  <!-- Bot-inner wing -->
+  <polygon points="122,157 117,174 134,174 136,157" fill="#b0b0b0" stroke="#888" stroke-width=".6"/>
+  <!-- Engine glow -->
+  <circle cx="106" cy="102" r="4.5" fill="#ff8800" filter="url(#glow)" style="animation:eng 0.4s ease-in-out infinite"/>
+  <circle cx="128" cy="118" r="3.5" fill="#ff8800" filter="url(#glow)" style="animation:eng 0.4s ease-in-out infinite .1s"/>
+  <circle cx="106" cy="199" r="4.5" fill="#ff8800" filter="url(#glow)" style="animation:eng 0.4s ease-in-out infinite .2s"/>
+  <circle cx="128" cy="174" r="3.5" fill="#ff8800" filter="url(#glow)" style="animation:eng 0.4s ease-in-out infinite .3s"/>
+  <!-- Laser bolts -->
+  <rect x="168" y="149" width="65" height="3" rx="1.5" fill="#ff2200" filter="url(#glow)" style="animation:laser1 .7s ease-out infinite"/>
+  <rect x="168" y="154" width="65" height="3" rx="1.5" fill="#ff2200" filter="url(#glow)" style="animation:laser1 .7s ease-out infinite .35s"/>
+</g>
+
+<!-- X-WING 2 (row 2 ~ y=245) -->
+<g style="animation:xw2 16s ease-in-out infinite 3s">
+  <rect x="62" y="241" width="66" height="12" rx="3" fill="#c8c8c8"/>
+  <rect x="62" y="244" width="70" height="6" rx="2" fill="#d8d8d8"/>
+  <polygon points="128,245 142,248 128,251" fill="#e0e0e0"/>
+  <ellipse cx="106" cy="242" rx="12" ry="6.5" fill="#6ab4ff" stroke="#aaa" stroke-width=".8" opacity=".92"/>
+  <ellipse cx="104" cy="240" rx="5" ry="2.5" fill="#a0d0ff" opacity=".5"/>
+  <rect x="67" y="245" width="56" height="2" fill="#cc0000" opacity=".9"/>
+  <polygon points="82,241 75,204 93,204 96,241" fill="#b8b8b8" stroke="#888" stroke-width=".6"/>
+  <polygon points="100,241 95,220 110,220 112,241" fill="#b0b0b0" stroke="#888" stroke-width=".6"/>
+  <polygon points="82,253 75,290 93,290 96,253" fill="#b8b8b8" stroke="#888" stroke-width=".6"/>
+  <polygon points="100,253 95,268 110,268 112,253" fill="#b0b0b0" stroke="#888" stroke-width=".6"/>
+  <circle cx="85"  cy="204" r="4"   fill="#ff8800" filter="url(#glow)" style="animation:eng 0.4s ease-in-out infinite .15s"/>
+  <circle cx="105" cy="220" r="3.2" fill="#ff8800" filter="url(#glow)" style="animation:eng 0.4s ease-in-out infinite .25s"/>
+  <circle cx="85"  cy="290" r="4"   fill="#ff8800" filter="url(#glow)" style="animation:eng 0.4s ease-in-out infinite .35s"/>
+  <circle cx="105" cy="268" r="3.2" fill="#ff8800" filter="url(#glow)" style="animation:eng 0.4s ease-in-out infinite .45s"/>
+  <rect x="141" y="246" width="58" height="2.5" rx="1.2" fill="#ff2200" filter="url(#glow)" style="animation:laser2 .9s ease-out infinite .5s"/>
+  <rect x="141" y="251" width="58" height="2.5" rx="1.2" fill="#ff2200" filter="url(#glow)" style="animation:laser2 .9s ease-out infinite .9s"/>
+</g>
+
+<!-- TIE Fighter 1 -->
+<g style="animation:tie1 11s ease-in-out infinite">
+  <!-- Left panel -->
+  <rect x="530" y="95"  width="32" height="62" rx="2" fill="#1a3a1a" stroke="#2d5a2d" stroke-width="1"/>
+  <line x1="534" y1="98"  x2="534" y2="154" stroke="#0d250d" stroke-width="2.5"/>
+  <line x1="539" y1="98"  x2="539" y2="154" stroke="#0d250d" stroke-width="2.5"/>
+  <line x1="544" y1="98"  x2="544" y2="154" stroke="#0d250d" stroke-width="2.5"/>
+  <line x1="549" y1="98"  x2="549" y2="154" stroke="#0d250d" stroke-width="2.5"/>
+  <line x1="554" y1="98"  x2="554" y2="154" stroke="#0d250d" stroke-width="2.5"/>
+  <!-- Connector arm left -->
+  <rect x="560" y="119" width="16" height="6" fill="#555"/>
+  <!-- Cockpit hexagon -->
+  <polygon points="576,113 598,113 610,126 598,139 576,139 564,126" fill="#333" stroke="#666" stroke-width="1.2"/>
+  <polygon points="579,116 595,116 606,126 595,136 579,136 568,126" fill="#222" stroke="#444" stroke-width=".8"/>
+  <!-- Cockpit window -->
+  <ellipse cx="588" cy="126" rx="9" ry="7" fill="#004488" stroke="#0066bb" stroke-width=".8" opacity=".9"/>
+  <ellipse cx="586" cy="124" rx="4" ry="3" fill="#0088ff" opacity=".4"/>
+  <!-- Connector arm right -->
+  <rect x="610" y="119" width="16" height="6" fill="#555"/>
+  <!-- Right panel -->
+  <rect x="624" y="95"  width="32" height="62" rx="2" fill="#1a3a1a" stroke="#2d5a2d" stroke-width="1"/>
+  <line x1="628" y1="98"  x2="628" y2="154" stroke="#0d250d" stroke-width="2.5"/>
+  <line x1="633" y1="98"  x2="633" y2="154" stroke="#0d250d" stroke-width="2.5"/>
+  <line x1="638" y1="98"  x2="638" y2="154" stroke="#0d250d" stroke-width="2.5"/>
+  <line x1="643" y1="98"  x2="643" y2="154" stroke="#0d250d" stroke-width="2.5"/>
+  <line x1="648" y1="98"  x2="648" y2="154" stroke="#0d250d" stroke-width="2.5"/>
+  <!-- Ion engine glow -->
+  <circle cx="588" cy="126" r="5" fill="#88aaff" opacity=".4" style="animation:eng .6s ease-in-out infinite"/>
+</g>
+
+<!-- TIE Fighter 2 -->
+<g style="animation:tie2 9s ease-in-out infinite 1.5s">
+  <rect x="545" y="210" width="28" height="55" rx="2" fill="#1a3a1a" stroke="#2d5a2d" stroke-width=".9"/>
+  <line x1="549" y1="213" x2="549" y2="262" stroke="#0d250d" stroke-width="2"/>
+  <line x1="553" y1="213" x2="553" y2="262" stroke="#0d250d" stroke-width="2"/>
+  <line x1="558" y1="213" x2="558" y2="262" stroke="#0d250d" stroke-width="2"/>
+  <line x1="563" y1="213" x2="563" y2="262" stroke="#0d250d" stroke-width="2"/>
+  <rect x="571" y="232" width="14" height="5" fill="#555"/>
+  <polygon points="585,228 603,228 613,237 603,247 585,247 575,237" fill="#333" stroke="#666" stroke-width="1"/>
+  <polygon points="587,231 601,231 610,237 601,244 587,244 578,237" fill="#222" stroke="#444" stroke-width=".7"/>
+  <ellipse cx="596" cy="237" rx="8" ry="6" fill="#004488" stroke="#0066bb" stroke-width=".7" opacity=".9"/>
+  <rect x="613" y="232" width="14" height="5" fill="#555"/>
+  <rect x="625" y="210" width="28" height="55" rx="2" fill="#1a3a1a" stroke="#2d5a2d" stroke-width=".9"/>
+  <line x1="629" y1="213" x2="629" y2="262" stroke="#0d250d" stroke-width="2"/>
+  <line x1="634" y1="213" x2="634" y2="262" stroke="#0d250d" stroke-width="2"/>
+  <line x1="639" y1="213" x2="639" y2="262" stroke="#0d250d" stroke-width="2"/>
+  <line x1="644" y1="213" x2="644" y2="262" stroke="#0d250d" stroke-width="2"/>
+  <circle cx="596" cy="237" r="4" fill="#88aaff" opacity=".35" style="animation:eng .5s ease-in-out infinite .3s"/>
+</g>
+
+<!-- TIE Fighter 3 (far back, smaller) -->
+<g style="animation:tie3 14s ease-in-out infinite 5s" opacity=".65">
+  <rect x="570" y="54" width="22" height="44" rx="2" fill="#1a3a1a" stroke="#2d5a2d" stroke-width=".8"/>
+  <line x1="574" y1="57" x2="574" y2="95" stroke="#0d250d" stroke-width="1.8"/>
+  <line x1="578" y1="57" x2="578" y2="95" stroke="#0d250d" stroke-width="1.8"/>
+  <line x1="582" y1="57" x2="582" y2="95" stroke="#0d250d" stroke-width="1.8"/>
+  <line x1="586" y1="57" x2="586" y2="95" stroke="#0d250d" stroke-width="1.8"/>
+  <rect x="590" y="70" width="11" height="4" fill="#555"/>
+  <polygon points="601,66 615,66 622,76 615,85 601,85 594,76" fill="#333" stroke="#666" stroke-width=".9"/>
+  <ellipse cx="608" cy="76" rx="7" ry="5.5" fill="#004488" opacity=".9"/>
+  <rect x="622" y="70" width="11" height="4" fill="#555"/>
+  <rect x="631" y="54" width="22" height="44" rx="2" fill="#1a3a1a" stroke="#2d5a2d" stroke-width=".8"/>
+  <line x1="635" y1="57" x2="635" y2="95" stroke="#0d250d" stroke-width="1.8"/>
+  <line x1="639" y1="57" x2="639" y2="95" stroke="#0d250d" stroke-width="1.8"/>
+  <line x1="643" y1="57" x2="643" y2="95" stroke="#0d250d" stroke-width="1.8"/>
+  <line x1="647" y1="57" x2="647" y2="95" stroke="#0d250d" stroke-width="1.8"/>
+</g>
+
+<!-- Title bar -->
+<rect x="0" y="0" width="900" height="28" fill="#000814" opacity=".85"/>
+<text x="450" y="18" text-anchor="middle" font-family="monospace" font-size="13" fill="#ffe81f" letter-spacing="4">★  STAR WARS — BATTLE OF YAVIN  ★</text>
+<!-- Bottom legend -->
+<rect x="0" y="332" width="900" height="28" fill="#000814" opacity=".85"/>
+<text x="450" y="348" text-anchor="middle" font-family="monospace" font-size="10" fill="#aaaaaa">
+  ✦ X-Wing  |  ◈ TIE Fighter  |  ⊙ Death Star Superlaser  |  🪐 Yavin IV
+</text>
+
+</g>
+</svg>
