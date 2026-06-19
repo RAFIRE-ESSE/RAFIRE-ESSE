@@ -224,7 +224,7 @@ A **cloud-based interactive 3D design workspace** for clothing — where fashion
   <p><b>Taking a break from training ML models? Click the T-Rex to play the classic Dino Game!</b></p>
   
   <a href="https://chromedino.com/" target="_blank">
-    <img src="https://media1.tenor.com/m/Yw_D4G8gR4kAAAAd/dinosaur-game.gif" width="550" alt="Play Chrome Dino Game" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Chromium_T-Rex-error-offline.svg" width="550" alt="Play Chrome Dino Game" />
   </a>
 
   <br />
