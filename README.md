@@ -218,22 +218,12 @@ A **cloud-based interactive 3D design workspace** for clothing — where fashion
 
 ---
 
-### ✧ Star Wars — Battle of Yavin
-
 <div align="center">
 
 ![Star Wars Battle of Yavin](https://raw.githubusercontent.com/RAFIRE-ESSE/RAFIRE-ESSE/main/star_wars.svg)
 
 <sub><i>X-Wings · TIE Fighters · Explosions · Deep Space · Rebel Alliance vs Galactic Empire</i></sub>
 
-</div>
-
----
-
-### ⑆ Contribution Activity
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/RAFIRE-ESSE/RAFIRE-ESSE/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" />
 </div>
 
 ---
