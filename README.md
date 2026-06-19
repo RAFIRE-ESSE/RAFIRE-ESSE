@@ -218,15 +218,18 @@ A **cloud-based interactive 3D design workspace** for clothing — where fashion
 
 ---
 
-### 📊 GitHub Metrics
+### 🎮 Let's Play Tic-Tac-Toe!
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=RAFIRE-ESSE&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RAFIRE-ESSE&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9" />
-</div>
+  <p>Drop a move by clicking on any empty square! (It will open an issue to record your turn).</p>
+  
+  |   |   |   |
+  |:---:|:---:|:---:|
+  | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C1%7C1&body=Just+push+%27Submit+new+issue%27.">⬜</a> | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C1%7C2&body=Just+push+%27Submit+new+issue%27.">⬜</a> | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C1%7C3&body=Just+push+%27Submit+new+issue%27.">⬜</a> |
+  | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C2%7C1&body=Just+push+%27Submit+new+issue%27.">⬜</a> | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C2%7C2&body=Just+push+%27Submit+new+issue%27.">⬜</a> | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C2%7C3&body=Just+push+%27Submit+new+issue%27.">⬜</a> |
+  | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C3%7C1&body=Just+push+%27Submit+new+issue%27.">⬜</a> | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C3%7C2&body=Just+push+%27Submit+new+issue%27.">⬜</a> | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C3%7C3&body=Just+push+%27Submit+new+issue%27.">⬜</a> |
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RAFIRE-ESSE&theme=tokyonight&hide_border=true&background=0d1117&ring=a855f7&fire=a855f7&currStreakLabel=a855f7" />
+  <sub><i>Powered by <a href="https://github.com/mshick/play-tic-tac-toe">play-tic-tac-toe</a> GitHub Action</i></sub>
 </div>
 
 ---
