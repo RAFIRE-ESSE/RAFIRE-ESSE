@@ -218,18 +218,18 @@ A **cloud-based interactive 3D design workspace** for clothing — where fashion
 
 ---
 
-### 🎮 Let's Play Tic-Tac-Toe!
+### ♟️ Interactive Community Chess
 
 <div align="center">
-  <p>Drop a move by clicking on any empty square! (It will open an issue to record your turn).</p>
+  <p><b>Let's play a game! I'm playing as White, the Community is Black. Click on a piece to make your move!</b></p>
   
-  |   |   |   |
-  |:---:|:---:|:---:|
-  | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C1%7C1&body=Just+push+%27Submit+new+issue%27.">⬜</a> | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C1%7C2&body=Just+push+%27Submit+new+issue%27.">⬜</a> | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C1%7C3&body=Just+push+%27Submit+new+issue%27.">⬜</a> |
-  | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C2%7C1&body=Just+push+%27Submit+new+issue%27.">⬜</a> | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C2%7C2&body=Just+push+%27Submit+new+issue%27.">⬜</a> | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C2%7C3&body=Just+push+%27Submit+new+issue%27.">⬜</a> |
-  | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C3%7C1&body=Just+push+%27Submit+new+issue%27.">⬜</a> | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C3%7C2&body=Just+push+%27Submit+new+issue%27.">⬜</a> | <a href="https://github.com/RAFIRE-ESSE/RAFIRE-ESSE/issues/new?title=ttt%7C3%7C3&body=Just+push+%27Submit+new+issue%27.">⬜</a> |
+  <a href="https://github.com/marcoveyzi/readme-chess/issues/new">
+    <img src="https://raw.githubusercontent.com/marcoveyzi/readme-chess/master/preview/preview.gif" width="450" alt="Interactive Chess Board" />
+  </a>
 
-  <sub><i>Powered by <a href="https://github.com/mshick/play-tic-tac-toe">play-tic-tac-toe</a> GitHub Action</i></sub>
+  <br />
+  <p><i>Your move, Community! ♔</i></p>
+  <sub><i>Powered by <a href="https://github.com/marcoveyzi/readme-chess">Readme-Chess</a> GitHub Action</i></sub>
 </div>
 
 ---
