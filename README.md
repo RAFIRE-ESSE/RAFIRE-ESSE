@@ -224,7 +224,7 @@ A **cloud-based interactive 3D design workspace** for clothing — where fashion
 
 ![Star Wars Battle of Yavin](https://raw.githubusercontent.com/RAFIRE-ESSE/RAFIRE-ESSE/main/star_wars.svg)
 
-<sub><i>Rebels vs Empire · X-Wings · TIE Fighters · Death Star Superlaser · Yavin IV</i></sub>
+<sub><i>X-Wings · TIE Fighters · Explosions · Deep Space · Rebel Alliance vs Galactic Empire</i></sub>
 
 </div>
 
