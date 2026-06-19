@@ -24,7 +24,7 @@ RAFIRE-ESSE/RAFIRE-ESSE is a ✨ special ✨ repository because its `README.md` 
 <br />
 
 ---
-<img align="right" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGpvOGk3eGF4aGFxM21odG04aXJuejd3ajBoZmNrbTc4b3ZrcXJkZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DX1cytoIQvnmgqBlQ3/giphy.gif" width="340" alt="ascii star wars animation" />
+<img align="right" src="https://raw.githubusercontent.com/RAFIRE-ESSE/RAFIRE-ESSE/main/coder_dark_only.gif" width="340" alt="coding gif dark" />
 
 ### 👾 `> whoami`
 
