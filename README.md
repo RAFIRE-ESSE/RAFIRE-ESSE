@@ -218,18 +218,18 @@ A **cloud-based interactive 3D design workspace** for clothing — where fashion
 
 ---
 
-### ♟️ Interactive Community Chess
+### 🦖 Chrome Dino Game Break!
 
 <div align="center">
-  <p><b>Let's play a game! I'm playing as White, the Community is Black. Click on a piece to make your move!</b></p>
+  <p><b>Taking a break from training ML models? Click the T-Rex to play the classic Dino Game!</b></p>
   
-  <a href="https://github.com/marcoveyzi/readme-chess/issues/new">
-    <img src="https://raw.githubusercontent.com/marcoveyzi/readme-chess/master/preview/preview.gif" width="450" alt="Interactive Chess Board" />
+  <a href="https://chromedino.com/" target="_blank">
+    <img src="https://media1.tenor.com/m/Yw_D4G8gR4kAAAAd/dinosaur-game.gif" width="550" alt="Play Chrome Dino Game" />
   </a>
 
   <br />
-  <p><i>Your move, Community! ♔</i></p>
-  <sub><i>Powered by <a href="https://github.com/marcoveyzi/readme-chess">Readme-Chess</a> GitHub Action</i></sub>
+  <br />
+  <p><i>Press Space to Jump. Watch out for the Pterodactyls! 🌵</i></p>
 </div>
 
 ---
